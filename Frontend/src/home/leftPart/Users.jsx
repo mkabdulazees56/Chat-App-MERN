@@ -1,11 +1,32 @@
-import React from 'react'
+import React from "react";
+import User from "./User";
 
 function Users() {
   return (
     <div>
-      Users
+      <h1 className="px-8 py-2 text-white font-semibold bg-slate-800 rounded-md">
+        Messages
+      </h1>
+      <div className="overflow-y-auto" style={{maxHeight:'calc(92vh)'}}>
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+        <User />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Users
+export default Users;
