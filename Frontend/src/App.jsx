@@ -1,9 +1,12 @@
 import React from 'react'
+import LeftCom from './home/leftPart/leftCom'
+import RightCom from './home/rightPart/rightCom'
 
 function App() {
   return (
-    <div>
-      chat App
+    <div className='flex h-screen'>
+      <LeftCom/>
+      <RightCom/>
     </div>
   )
 }
