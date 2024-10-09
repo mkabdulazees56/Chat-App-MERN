@@ -10,8 +10,8 @@ function User() {
           </div>
         </div>
         <div>
-          <h1>Abdul Azees</h1>
-          <span>mkabdulazees56@gmail.com</span>
+          <h1 className="font-bold text-white">Abdul Azees</h1>
+          <span className="text-slate-700">mkabdulazees56@gmail.com</span>
         </div>
       </div>
     </div>

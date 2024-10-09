@@ -3,7 +3,8 @@ import { FaSearch } from "react-icons/fa";
 
 function Search() {
   return (
-    <div className="py-3 px-3">
+    <div className="h-[12vh]">
+      <div className="py-3 px-3">
       <form action="">
         <div className="flex space-x-3">
         <label className="input input-bordered flex items-center gap-2 w-[80%]">
@@ -12,6 +13,7 @@ function Search() {
         <FaSearch className="text-5xl p-2 hover:bg-gray-600 rounded-full duration-300"/>
         </div>
       </form>
+    </div>
     </div>
   );
 }

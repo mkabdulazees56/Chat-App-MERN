@@ -5,7 +5,7 @@ import Logout from './Logout'
 
 function leftCom() {
   return (
-    <div className='w-[30%] bg-black text-white'>
+    <div className='w-[30%] bg-black '>
       <Search/>
       <Users/>
       <Logout/>
