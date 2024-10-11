@@ -6,7 +6,7 @@ function Messages() {
     <div className="overflow-y-auto no-scrollbar" style={{minHeight:'calc(81vh - 5vh)'}}>
       <Message />
       <Message />
-     
+      <Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message />
     </div>
   );
 }
